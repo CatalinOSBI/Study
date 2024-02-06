@@ -63,3 +63,7 @@ const myArray = ["A","B","C"]
 myArray.length | returns 3
 ```
 _________________________________________
+
+## Objects
+
+
