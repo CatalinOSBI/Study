@@ -67,3 +67,46 @@ _________________________________________
 ## Objects
 
 
+
+```
+.filter() - Think about it as FILTERING trough a Database ( usage myArray.filter(filterFunction) )
+
+const myArray = ['spray', 'elite', 'exuberant', 'destruction', 'present']
+
+const filterFunction = (arrayItem) => {
+  arrayItem.length > 6
+}
+
+myArray.filter(filterFunction) | returns ["exuberant", "destruction", "present"]
+```
+_________________________________________
+```
+.map() - Think about it as applying a FUNCTION to an entire Database ( usage myArray.map(mapFunction) )
+
+const myArray = ['spray', 'elite', 'exuberant', 'destruction', 'present']
+
+const mapFunction = (arrayItem) => {
+  arrayItem.length > 6
+}
+
+myArray.map(mapFunction) | returns [false, false, true, true, true]
+```
+_________________________________________
+```
+.reduce() - Think about it as applying a CALCULATION to an entire Database ( usage myArray.reduce((reduceFunction), initialValue) )
+
+const myArray = [1, 2, 3, 4]
+
+const initialValue = 0 (0 is usually the default value from what I've seen)
+
+const reduceFunction = (total, arrayItem) => {
+ return total + arrayItem
+}
+
+myArray.reduce((reduceFunction), initialValue) | returns 10 | How it works: 0+1+2+3+4 ( 10 )
+						            | If the initialValue were 10: 10+1+2+3+4 ( 20 )
+						            | If the total were total + 1: 0+1+1+2+1+3+1+4+1 ( 14 )
+```
+_________________________________________
+
+
