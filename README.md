@@ -1,6 +1,6 @@
 # Study
 
-## Arrays 
+## Arrays & Objects
 
 
 
@@ -63,11 +63,6 @@ const myArray = ["A","B","C"]
 myArray.length | returns 3
 ```
 _________________________________________
-
-## Objects
-
-
-
 ```
 .filter() - Think about it as FILTERING trough a Database ( usage myArray.filter(filterFunction) )
 
